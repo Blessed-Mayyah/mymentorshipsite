@@ -1,0 +1,161 @@
+/* Style the navigation bar */
+.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #333; /* Background color */
+    overflow: hidden;
+  }
+  
+  /* Style the navigation links */
+  .nav-item {
+    float: left;
+  }
+  
+  .nav-link {
+    display: block;
+    color: white; /* Text color */
+    text-align: center;
+    padding: 14px 16px; /* Padding */
+    text-decoration: none;
+  }
+  
+  /* Change the color of links on hover */
+  .nav-link:hover {
+    background-color: #555;
+  }
+  
+  /* Change the color of the active link */
+  .nav-link.active {
+    background-color: #4CAF50; /* Green */
+  }
+  
+  /* Disable styling for disabled links */
+  .nav-link.disabled {
+    pointer-events: none; /* Disable clicks */
+    opacity: 0.6; /* Reduce opacity for disabled links */
+  }
+  /* Style the carousel container */
+.carousel {
+    position: relative;
+  }
+  
+  /* Style the carousel indicators */
+  .carousel-indicators {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .carousel-indicators button {
+    background-color: rgba(255, 255, 255, 0.5); /* Indicator color */
+    border: none;
+    width: 10px;
+    height: 10px;
+    margin: 0 5px;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  
+  .carousel-indicators button.active {
+    background-color: #fff; /* Active indicator color */
+  }
+  
+  /* Style the carousel captions */
+  .carousel-caption {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff; /* Text color */
+  }
+  
+  /* Style the carousel controls */
+  .carousel-control-prev,
+  .carousel-control-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 30px; /* Control button width */
+    height: 30px; /* Control button height */
+    background-color: rgba(0, 0, 0, 0.5); /* Control button background color */
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    width: 15px; /* Control icon width */
+    height: 15px; /* Control icon height */
+    background-size: cover;
+  }
+  
+  .carousel-control-prev-icon {
+    background-image: url('data:image/svg+xml,%3csvg xmlns="http://www.w3.org/2000/svg" fill="%23fff" viewBox="0 0 8 8"%3e%3cpath d="M5.719 0.281a0.999 0.999 0 0 0-1.406 0L0.281 4.281a0.999 0.999 0 1 0 1.406 1.438L4 2.438l2.313 2.281a0.997 0.997 0 0 0 1.406 0c0.39-0.39 0.39-1.023 0-1.414L5.719 0.281z"%3e%3c/path%3e%3c/svg%3e');
+  }
+  
+  .carousel-control-next-icon {
+    background-image: url('data:image/svg+xml,%3csvg xmlns="http://www.w3.org/2000/svg" fill="%23fff" viewBox="0 0 8 8"%3e%3cpath d="M5.719 0.281a0.999 0.999 0 0 0-1.406 0L0.281 4.281a0.999 0.999 0 1 0 1.406 1.438L4 2.438l2.313 2.281a0.997 0.997 0 0 0 1.406 0c0.39-0.39 0.39-1.023 0-1.414L5.719 0.281z"%3e%3c/path%3e%3c/svg%3e');
+  }
+
+  /* Style the h1 */
+h1 {
+    text-align: center; /* Center the text */
+    font-weight: bold; /* Make the text very bold */
+  }
+  
+  /* Style the card titles */
+  .card-title {
+    font-weight: bold; /* Make the titles bold */
+  }
+  
+  /* Style the cards */
+  .card {
+    margin-bottom: 20px; /* Add some spacing between cards */
+    border: 1px solid #ccc; /* Add border to the cards */
+    border-radius: 10px; /* Round the corners of the cards */
+  }
+  
+  /* Style the card body */
+  .card-body {
+    padding: 20px; /* Add padding inside the card body */
+  }
+  
+  /* Style the card text */
+  .card-text {
+    color: #555; /* Set text color */
+  }
+  
+  /* Style the card buttons */
+  .btn-primary {
+    background-color: #007bff; /* Set button background color */
+    color: #fff; /* Set button text color */
+    border: none; /* Remove button border */
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3; /* Change button background color on hover */
+  }
+  /* Style the footer */
+footer {
+    background-color: #333; /* Set background color */
+    color: #fff; /* Set text color */
+    padding: 20px; /* Add padding */
+    text-align: center; /* Center align text */
+  }
+  
+  /* Style the links in the footer */
+  footer a {
+    color: #fff; /* Set link text color */
+    text-decoration: none; /* Remove underline */
+  }
+  
+  /* Style the links in the footer on hover */
+  footer a:hover {
+    text-decoration: underline; /* Add underline on hover */
+  }
+  
+  
+  
